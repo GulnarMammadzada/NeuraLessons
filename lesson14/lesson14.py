@@ -3,7 +3,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
-from lesson14.Untitled1 import ezberci_model, mentiqli_model, test_accuracy_mentiqli
 
 X,y=make_classification(n_samples=100,n_features=20,random_state=42)
 
